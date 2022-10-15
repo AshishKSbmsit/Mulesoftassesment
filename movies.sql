@@ -4,11 +4,11 @@ connection = sql.connect("dabaseMovies.db")
 
 pointer = connection.cursor()
 pointer.execute("CREATE TABLE IF NOT EXISTS MOVIES( NAME TEXT, ACTOR TEXT, ACTRESS TEXT,DIRECTOR_NAME TEXT, YEAR INTEGER )")
-pointer.execute("INSERT INTO MOVIES VALUES('Shang-Chi and the Legend of the Ten Rings','Simu Liu','Awkwafina','Destin Daniel Cretton',2021)")
-pointer.execute("INSERT INTO MOVIES VALUES('Dune','Timothée Chalamet','Rebecca Ferguson','Denis Villeneuve',2021)")
-pointer.execute("INSERT INTO MOVIES VALUES('Spider-Man: Homecoming','Tom Holland','Zendaya','Jon Watts',2017)")
-pointer.execute("INSERT INTO MOVIES VALUES('Spider-Man: Far From Home','Tom Holland','Zendaya','Jon Watts',2019)")
-pointer.execute("INSERT INTO MOVIES VALUES('Spider-Man: No Way Home','Tom Holland','Zendaya','Jon Watts',2021)")
+pointer.execute("INSERT INTO MOVIES VALUES('Vampire Diaries','Paul Wesley','Kat Graham','Micheal',2019)")
+pointer.execute("INSERT INTO MOVIES VALUES('Vampis','Pal Weley','Kat raham','cheal',2018)")
+pointer.execute("INSERT INTO MOVIES VALUES(''VamDiaries','P ley','aham','Mheal',2020)")
+pointer.execute("INSERT INTO MOVIES VALUES('re Diaries','Paley','Katraam','Mijjcheal',2021)")
+pointer.execute("INSERT INTO MOVIES VALUES(''Vampes','aulley','ataham','Mloicheal',2022)")
 
 # Printing all the elements of the database 
 print("*********Everything in the database*********")
